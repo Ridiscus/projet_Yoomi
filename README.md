@@ -44,6 +44,8 @@ npm run start:dev (utilisez s'il-vous-plaît un second CMD, placez-vous dans le 
  
  AVERTISSEMENT : [ Il se pourrait qu'à cette étape il ait un conflit entre prisma et le serveur NestJs si jamais les deux sont en cours alors que Prisma n'est pas encore déployer du coup si vous vous retrouvez dans une telle situation pas de stress arrêtez le serveur NestJs puis régénèrer a nouveau Prisma puis repeupler la base de données avec npx db seed alors la c'est sûre que ça passera sinon dans le cas échéant je vous conseille de supprimer le dossier node module et le cache .prisma dans node module puis exécuter encore npm install et relancer Prisma generate a nouveau (mais ce conseil est au cas où vous vous retrouvez coincé) ]
 
+ mais n'ouliez pas que a la fin les deux serveurs doivent être en marche (NestJs et prisma client)
+
 ➡️ L’application consomme directement l’API exposée par NestJS.
 ⚠️ Assurez-vous de mettre à jour la BASE_URL dans services/project_repository.dart avec l’IP de votre machine (exemple : http://192.168.1.69:5555/projects).
 
