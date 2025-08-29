@@ -11,6 +11,8 @@ Ce projet est une application complète composée d’un backend en NestJS et d�
 
 ➡️ L’API est accessible sur : http://localhost:5555/projects
 
+Renommer le fichier .env.example en [.env] et y inséré la bd suivante : "file:./dev.db" avant tout demarrage
+
 
 ---
 ## 🚀 Installation de Git vers votre machine local
