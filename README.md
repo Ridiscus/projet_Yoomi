@@ -15,7 +15,7 @@ Ce projet est une application complète composée d’un backend en NestJS et d�
 ---
 ## 🚀 Installation de Git vers votre machine local
 `bash(cmd)
-git clone https://github.com/<username>/project-management-backend.git
+git clone https://github.com/Ridiscus/projet_Yoomi.git
 
 
 
