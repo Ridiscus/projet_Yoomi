@@ -31,7 +31,7 @@ bash(cmd)
 cd yoomi-test
 cd frontend
 flutter pub get
-flutter run (veuillez le lancer sur un emulateur ou appareil andoid)
+flutter run (veuillez le lancer sur un emulateur ou appareil android)
 
 
 ---
