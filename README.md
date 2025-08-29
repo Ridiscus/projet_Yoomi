@@ -20,11 +20,6 @@ git clone https://github.com/Ridiscus/projet_Yoomi.git
 
 
 
-
-
-
-
-
 ## ⚙️ Installation et exécution
 2️⃣ Frontend (Flutter)
 bash(cmd)
@@ -40,8 +35,10 @@ flutter run (veuillez le lancer sur un emulateur ou appareil android)
 cd projet_Yoomi
 cd backend
 npm install
+npx prisma generate (lancer cette commande pour generer le client prisma)
 npm run start:dev
-
+npx prisma db seed (veuillez utilisez un second CMD puis mettez vous dans le repertoire du backend encore une fois de plus[cd backend] et executez la commande elle permettra automatiquement de peupler la base de données avec des données de test.
+npx prisma studio (cette commande vous permettra d'acceder a l'interface graphique web de prisma afin d'interagir avec la base de données).
 
 
 
