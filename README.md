@@ -28,7 +28,7 @@ git clone https://github.com/Ridiscus/projet_Yoomi.git
 ## ⚙️ Installation et exécution
 2️⃣ Frontend (Flutter)
 bash(cmd)
-cd yoomi-test
+cd projet_Yoomi
 cd frontend
 flutter pub get
 flutter run (veuillez le lancer sur un emulateur ou appareil android)
@@ -37,6 +37,7 @@ flutter run (veuillez le lancer sur un emulateur ou appareil android)
 ---
 ### 1️⃣ Backend (NestJS)
 `bash
+cd projet_Yoomi
 cd backend
 npm install
 npm run start:dev
